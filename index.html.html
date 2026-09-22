@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Divyanshi Gupta | BAMS - Ayurveda Consultant</title>
+  <meta name="description" content="Official website of Dr. Divyanshi Gupta, BAMS (Ayurveda Consultant). Holistic, safe, and natural healthcare, online consultations, chronic disease management, and wellness guidance.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ayur: {
+              50: '#f4f7f4',
+              100: '#e5ece5',
+              200: '#cbd9cb',
+              300: '#a3beaa',
+              400: '#759d80',
+              500: '#527e5e',
+              600: '#3e6349',
+              700: '#334f3b',
+              800: '#2a4031',
+              900: '#1b2c21',
+              dark: '#142219',
+              gold: '#c59d5f',
+              sand: '#fbf8f2',
+              cream: '#f5efe4'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .bg-herbal-pattern {
+      background-color: #fbf8f2;
+      background-image: radial-gradient(#cbd9cb 0.75px, transparent 0.75px), radial-gradient(#cbd9cb 0.75px, #fbf8f2 0.75px);
+      background-size: 28px 28px;
+      background-position: 0 0, 14px 14px;
+    }
+  </style>
+</head>
+<body class="font-sans bg-ayur-sand text-slate-800 antialiased selection:bg-ayur-200 selection:text-ayur-900">
+
+  <!-- Top Announcement Bar -->
+  <header class="bg-ayur-800 text-ayur-100 text-xs sm:text-sm py-2 px-4 border-b border-ayur-700">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-ayur-600 text-white">
+          <i class="fa-solid fa-laptop-medical mr-1.5"></i> Online Consultation
+        </span>
+        <span>Consult from the comfort of your home across India</span>
+      </div>
+      <div class="flex items-center gap-4 text-xs font-medium">
+        <a href="tel:8090799630" class="hover:text-ayur-gold transition-colors flex items-center gap-1.5">
+          <i class="fa-solid fa-phone"></i> +91 8090799630
+        </a>
+        <span class="hidden sm:inline text-ayur-600">|</span>
+        <a href="https://wa.me/918090799630?text=Hello%20Dr.%20Divyanshi,%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" class="hover:text-ayur-gold transition-colors flex items-center gap-1.5">
+          <i class="fa-brands fa-whatsapp text-emerald-400"></i> WhatsApp Appointments
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navigation -->
+  <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-ayur-100 transition-all shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 rounded-full bg-ayur-700 text-white flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
+            <i class="fa-solid fa-seedling text-xl text-ayur-200"></i>
+          </div>
+          <div>
+            <span class="font-serif text-2xl font-bold tracking-tight text-ayur-900 block leading-tight">Dr. Divyanshi Gupta</span>
+            <span class="text-xs uppercase tracking-wider font-semibold text-ayur-600">BAMS &bull; Ayurveda Consultant</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+          <a href="#about" class="hover:text-ayur-700 transition-colors">About</a>
+          <a href="#services" class="hover:text-ayur-700 transition-colors">Services</a>
+          <a href="#approach" class="hover:text-ayur-700 transition-colors">Natural Approach</a>
+          <a href="#consultation" class="hover:text-ayur-700 transition-colors">Online Care</a>
+          <a href="#faq" class="hover:text-ayur-700 transition-colors">FAQs</a>
+          <a href="#contact" class="hover:text-ayur-700 transition-colors">Contact</a>
+        </div>
+
+        <!-- Desktop Action Button -->
+        <div class="hidden lg:flex items-center gap-3">
+          <a href="#booking" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-ayur-700 hover:bg-ayur-800 shadow-sm transition-all">
+            <i class="fa-regular fa-calendar-check mr-2"></i> Book Appointment
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="flex md:hidden">
+          <button id="mobile-menu-btn" type="button" class="text-slate-700 hover:text-ayur-800 p-2" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-ayur-100 px-4 pt-2 pb-6 space-y-3">
+      <a href="#about" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-ayur-50 hover:text-ayur-800">About</a>
+      <a href="#services" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-ayur-50 hover:text-ayur-800">Services</a>
+      <a href="#approach" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-ayur-50 hover:text-ayur-800">Natural Approach</a>
+      <a href="#consultation" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-ayur-50 hover:text-ayur-800">Online Care</a>
+      <a href="#faq" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-ayur-50 hover:text-ayur-800">FAQs</a>
+      <a href="#contact" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-ayur-50 hover:text-ayur-800">Contact</a>
+      <div class="pt-2">
+        <a href="#booking" class="mobile-link w-full inline-flex items-center justify-center px-5 py-3 rounded-full text-base font-semibold text-white bg-ayur-700 hover:bg-ayur-800 shadow">
+          Book Appointment
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28 bg-herbal-pattern border-b border-ayur-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Text -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-ayur-100/90 border border-ayur-200 text-ayur-800 text-xs sm:text-sm font-semibold tracking-wide uppercase">
+            <i class="fa-solid fa-heart-pulse text-ayur-600"></i>
+            <span>Your Health, Our Priority</span>
+          </div>
+
+          <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-ayur-900 leading-[1.15]">
+            Compassionate Care. <br class="hidden sm:inline">
+            <span class="text-ayur-700 italic font-medium">Expert Guidance.</span> <br>
+            Better Health.
+          </h1>
+
+          <p class="text-lg sm:text-xl text-slate-600 max-w-2xl leading-relaxed">
+            Welcome to holistic healing with <strong class="text-ayur-900 font-semibold">Dr. Divyanshi Gupta</strong> (BAMS). Restoring bodily harmony, metabolic vitality, and dosha balance through classical Ayurvedic science and personalized care.
+          </p>
+
+          <!-- Core Philosophy Quote -->
+          <div class="p-4 sm:p-5 rounded-2xl bg-white border-l-4 border-ayur-600 shadow-sm flex items-start gap-4">
+            <i class="fa-solid fa-quote-left text-ayur-400 text-2xl mt-1"></i>
+            <div>
+              <p class="font-serif text-lg sm:text-xl italic text-slate-800 font-medium">"Good health is the foundation of a better life."</p>
+              <p class="text-xs font-bold text-ayur-600 uppercase tracking-wider mt-1">— Guiding Philosophy</p>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 pt-2">
+            <a href="#booking" class="inline-flex items-center justify-center px-7 py-4 rounded-xl text-base font-semibold text-white bg-ayur-700 hover:bg-ayur-800 shadow-md hover:shadow-lg transition-all">
+              <i class="fa-solid fa-calendar-check mr-2.5"></i> Book Consultation
+            </a>
+            <a href="https://wa.me/918090799630?text=Hello%20Dr.%20Divyanshi,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="inline-flex items-center justify-center px-7 py-4 rounded-xl text-base font-semibold text-ayur-900 bg-white hover:bg-ayur-50 border border-ayur-200 shadow-sm transition-all">
+              <i class="fa-brands fa-whatsapp text-emerald-600 text-xl mr-2.5"></i> WhatsApp: 8090799630
+            </a>
+          </div>
+
+          <!-- Feature Pills -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-ayur-200/60">
+            <div class="flex items-center gap-2.5">
+              <div class="w-9 h-9 rounded-lg bg-ayur-100 text-ayur-700 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-laptop-medical text-sm"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-medium text-slate-700">Online Consultation</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <div class="w-9 h-9 rounded-lg bg-ayur-100 text-ayur-700 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-leaf text-sm"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-medium text-slate-700">Safe & Natural Approach</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <div class="w-9 h-9 rounded-lg bg-ayur-100 text-ayur-700 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-shield-halved text-sm"></i>
+              </div>
+              <span class="text-xs sm:text-sm font-medium text-slate-700">Holistic Care</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Card -->
+        <div class="lg:col-span-5">
+          <div class="relative mx-auto max-w-md">
+            <div class="relative bg-white rounded-3xl shadow-xl overflow-hidden border border-ayur-200">
+              
+              <!-- Card Top -->
+              <div class="bg-gradient-to-br from-ayur-800 to-ayur-700 p-6 text-white text-center">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-white/10 text-ayur-100 inline-block mb-2">Ayurveda Consultant</span>
+                <h3 class="font-serif text-3xl font-bold tracking-tight">Dr. Divyanshi Gupta</h3>
+                <p class="text-ayur-200 text-sm font-medium mt-1">BAMS (Ayurveda Physician)</p>
+              </div>
+
+              <!-- Card Body -->
+              <div class="p-6 space-y-5">
+                <div class="flex items-center justify-between p-3.5 bg-ayur-50 rounded-xl border border-ayur-100">
+                  <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-ayur-600 text-white flex items-center justify-center">
+                      <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <div>
+                      <p class="text-xs text-slate-500 uppercase font-semibold">Specialization</p>
+                      <p class="text-sm font-bold text-ayur-900">Holistic & Women's Health</p>
+                    </div>
+                  </div>
+                  <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 text-xs font-bold rounded-md">Verified</span>
+                </div>
+
+                <div class="space-y-3 text-sm text-slate-600">
+                  <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-circle-check text-ayur-500 mt-0.5"></i>
+                    <span>Root-cause diagnosis through Prakriti & Vikriti evaluation</span>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-circle-check text-ayur-500 mt-0.5"></i>
+                    <span>Specialized Ayurvedic care for PCOD/PCOS & hormonal balance</span>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-circle-check text-ayur-500 mt-0.5"></i>
+                    <span>Management of chronic digestive, joint, and lifestyle conditions</span>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-circle-check text-ayur-500 mt-0.5"></i>
+                    <span>Personalized dietary charts & herbal formulations</span>
+                  </div>
+                </div>
+
+                <div class="pt-2 border-t border-slate-100 flex flex-col gap-2.5">
+                  <a href="tel:8090799630" class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-ayur-100 hover:bg-ayur-200 text-ayur-900 font-bold text-sm transition-colors">
+                    <i class="fa-solid fa-phone"></i> Call: 8090799630
+                  </a>
+                  <a href="#booking" class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-ayur-700 hover:bg-ayur-800 text-white font-bold text-sm transition-colors shadow">
+                    <i class="fa-solid fa-calendar-days"></i> Book Online Slot
+                  </a>
+                </div>
+              </div>
+
+              <!-- Motto Banner -->
+              <div class="bg-ayur-cream px-6 py-3 text-center border-t border-ayur-100">
+                <span class="text-xs font-bold tracking-wider uppercase text-ayur-800">
+                  <i class="fa-solid fa-heart text-red-500 mr-1"></i> Stay Healthy. Stay Happy.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Pillars Section -->
+  <section class="py-12 bg-white border-b border-ayur-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Pillar 1 -->
+        <div class="flex items-start gap-4 p-6 rounded-2xl bg-ayur-sand border border-ayur-100 hover:shadow-md transition-all">
+          <div class="w-14 h-14 rounded-2xl bg-ayur-700 text-white flex items-center justify-center shrink-0 shadow-sm">
+            <i class="fa-solid fa-laptop-medical text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="font-serif text-xl font-bold text-ayur-900">Online Consultation</h3>
+            <p class="text-sm text-slate-600 mt-1">Consult from the comfort of your home with secure teleconsultations and e-prescriptions.</p>
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="flex items-start gap-4 p-6 rounded-2xl bg-ayur-sand border border-ayur-100 hover:shadow-md transition-all">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center shrink-0 shadow-sm">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="font-serif text-xl font-bold text-ayur-900">Call / WhatsApp</h3>
+            <p class="text-sm text-slate-600 mt-1">Quick appointments, patient queries, and regular follow-ups directly at <strong class="text-slate-800">8090799630</strong>.</p>
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="flex items-start gap-4 p-6 rounded-2xl bg-ayur-sand border border-ayur-100 hover:shadow-md transition-all">
+          <div class="w-14 h-14 rounded-2xl bg-ayur-600 text-white flex items-center justify-center shrink-0 shadow-sm">
+            <i class="fa-solid fa-spa text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="font-serif text-xl font-bold text-ayur-900">Natural Approach</h3>
+            <p class="text-sm text-slate-600 mt-1">Safe, effective & holistic healthcare focusing on authentic herbal treatments and lifestyle balance.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-ayur-sand">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-5 space-y-6">
+          <div class="rounded-3xl shadow-xl bg-white p-8 border border-ayur-200">
+            <div class="w-16 h-16 rounded-full bg-ayur-100 text-ayur-700 flex items-center justify-center mb-6">
+              <i class="fa-solid fa-stethoscope text-2xl"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ayur-900">Ayurvedic Physician</h3>
+            <p class="text-ayur-700 font-semibold text-xs uppercase tracking-wider mt-1">Dr. Divyanshi Gupta &bull; BAMS</p>
+            <div class="my-5 border-t border-ayur-100"></div>
+            
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              With formal clinical training in Bachelor of Ayurvedic Medicine and Surgery (BAMS), Dr. Divyanshi Gupta is dedicated to helping individuals restore bodily balance and prevent chronic ailments naturally.
+            </p>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Her consultations integrate detailed dosha analysis, pulse evaluation principles, and practical dietary strategies tailored to modern work and family lifestyles.
+            </p>
+
+            <div class="mt-6 p-4 rounded-xl bg-ayur-50 border border-ayur-200 flex items-center gap-3.5">
+              <i class="fa-solid fa-award text-ayur-gold text-2xl"></i>
+              <div>
+                <h4 class="text-xs font-bold uppercase tracking-wider text-ayur-900">Evidence-Based Ayurveda</h4>
+                <p class="text-xs text-slate-500">Pure, standardized herbs and evidence-informed nutritional guidance.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-ayur-100 text-ayur-800 text-xs font-semibold uppercase tracking-wider">
+            About The Doctor
+          </div>
+
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ayur-900 leading-tight">
+            Restoring Long-Term Vitality Through Classical Ayurvedic Wisdom
+          </h2>
+
+          <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+            In classical Ayurveda, health is not simply the absence of symptoms—it is a harmonious state of biological doshas (Vata, Pitta, Kapha), optimal digestion (Agni), tissue strength (Dhatus), and mental peace. Dr. Divyanshi Gupta focuses on understanding your unique body type to formulate lasting healing strategies.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-3">
+            <div class="p-5 rounded-2xl bg-white border border-ayur-100 shadow-sm space-y-2">
+              <h4 class="font-serif text-lg font-bold text-ayur-900 flex items-center gap-2">
+                <span class="w-6 h-6 rounded-full bg-ayur-100 text-ayur-700 text-xs flex items-center justify-center font-bold">1</span>
+                Root Cause Diagnosis
+              </h4>
+              <p class="text-xs text-slate-600 leading-relaxed">Identifying underlying imbalances, metabolic buildup (Ama), and triggers rather than temporary suppression.</p>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-white border border-ayur-100 shadow-sm space-y-2">
+              <h4 class="font-serif text-lg font-bold text-ayur-900 flex items-center gap-2">
+                <span class="w-6 h-6 rounded-full bg-ayur-100 text-ayur-700 text-xs flex items-center justify-center font-bold">2</span>
+                Personalized Nutrition
+              </h4>
+              <p class="text-xs text-slate-600 leading-relaxed">Custom meal plans (Pathya Aahar) suited to your digestion, routine, and seasonal requirements.</p>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-white border border-ayur-100 shadow-sm space-y-2">
+              <h4 class="font-serif text-lg font-bold text-ayur-900 flex items-center gap-2">
+                <span class="w-6 h-6 rounded-full bg-ayur-100 text-ayur-700 text-xs flex items-center justify-center font-bold">3</span>
+                Women's Hormonal Care
+              </h4>
+              <p class="text-xs text-slate-600 leading-relaxed">Specialized natural protocols for PCOD, cycle regularity, and overall hormonal balance.</p>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-white border border-ayur-100 shadow-sm space-y-2">
+              <h4 class="font-serif text-lg font-bold text-ayur-900 flex items-center gap-2">
+                <span class="w-6 h-6 rounded-full bg-ayur-100 text-ayur-700 text-xs flex items-center justify-center font-bold">4</span>
+                Continuous Doctor Support
+              </h4>
+              <p class="text-xs text-slate-600 leading-relaxed">Direct WhatsApp check-ins and follow-ups to keep your wellness journey on track.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-white border-y border-ayur-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <span class="inline-flex items-center px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-ayur-100 text-ayur-800">
+          Our Services
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-ayur-900">
+          Comprehensive Ayurvedic Healthcare
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg">
+          Holistic treatments designed to restore balance, manage chronic conditions, and promote long-term vitality.
+        </p>
+      </div>
+
+      <!-- 6 Core Services -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- 1. General Consultation -->
+        <div class="group bg-ayur-sand rounded-3xl p-8 border border-ayur-200/80 hover:border-ayur-500 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-ayur-700 text-white flex items-center justify-center mb-6 shadow-md group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-stethoscope text-2xl"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ayur-900 mb-3">General Consultation</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Comprehensive personal health assessment examining your Prakriti (constitution), Vikriti (imbalance), digestive fire (Agni), and lifestyle patterns.
+            </p>
+            <ul class="space-y-2 text-xs text-slate-700 font-medium">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Individual Dosha Assessment</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Thorough Medical History Review</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Actionable Health Roadmap</li>
+            </ul>
+          </div>
+          <div class="pt-6 mt-6 border-t border-ayur-200/60">
+            <a href="#booking" class="inline-flex items-center text-sm font-bold text-ayur-700 hover:text-ayur-900">
+              Book General Consultation <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Preventive Care -->
+        <div class="group bg-ayur-sand rounded-3xl p-8 border border-ayur-200/80 hover:border-ayur-500 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-ayur-700 text-white flex items-center justify-center mb-6 shadow-md group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-shield-heart text-2xl"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ayur-900 mb-3">Preventive Care</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Proactive regimens designed to boost natural immunity (Ojas), adapt to seasonal weather transitions (Ritucharya), and protect vitality.
+            </p>
+            <ul class="space-y-2 text-xs text-slate-700 font-medium">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Natural Immunity (Ojas) Enhancement</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Seasonal Transition Regimens</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Gentle Cellular Detox Protocols</li>
+            </ul>
+          </div>
+          <div class="pt-6 mt-6 border-t border-ayur-200/60">
+            <a href="#booking" class="inline-flex items-center text-sm font-bold text-ayur-700 hover:text-ayur-900">
+              Explore Preventive Care <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Health Check-ups -->
+        <div class="group bg-ayur-sand rounded-3xl p-8 border border-ayur-200/80 hover:border-ayur-500 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-ayur-700 text-white flex items-center justify-center mb-6 shadow-md group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-clipboard-check text-2xl"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ayur-900 mb-3">Health Check-ups</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Regular evaluations tracking gut health, sleep patterns, metabolic markers, and bodily resilience to detect sub-clinical imbalances early.
+            </p>
+            <ul class="space-y-2 text-xs text-slate-700 font-medium">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Gut Health & Digestion Review</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Sleep & Stress Vitality Check</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Periodic Progress Monitoring</li>
+            </ul>
+          </div>
+          <div class="pt-6 mt-6 border-t border-ayur-200/60">
+            <a href="#booking" class="inline-flex items-center text-sm font-bold text-ayur-700 hover:text-ayur-900">
+              Schedule Health Check-up <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Gynecological Disorders -->
+        <div class="group bg-ayur-sand rounded-3xl p-8 border border-ayur-200/80 hover:border-ayur-500 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-ayur-700 text-white flex items-center justify-center mb-6 shadow-md group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-venus text-2xl"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ayur-900 mb-3">Gynecological Disorders</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Gentle, hormone-regulating therapies for women's reproductive health, focusing on natural endocrine restoration and cycle regulation.
+            </p>
+            <ul class="space-y-2 text-xs text-slate-700 font-medium">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> PCOD / PCOS Natural Management</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Menstrual Pain & Irregularities</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Hormonal Acne & Mood Support</li>
+            </ul>
+          </div>
+          <div class="pt-6 mt-6 border-t border-ayur-200/60">
+            <a href="#booking" class="inline-flex items-center text-sm font-bold text-ayur-700 hover:text-ayur-900">
+              Book Women's Health Care <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Chronic Disease Management -->
+        <div class="group bg-ayur-sand rounded-3xl p-8 border border-ayur-200/80 hover:border-ayur-500 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-ayur-700 text-white flex items-center justify-center mb-6 shadow-md group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-disease text-2xl"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ayur-900 mb-3">Chronic Disease Management</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Long-term holistic support for persistent conditions through therapeutic herbal formulations, metabolic balance, and lifestyle adjustments.
+            </p>
+            <ul class="space-y-2 text-xs text-slate-700 font-medium">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Arthritis & Joint Pain Relief</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Acidity, IBS & Digestive Health</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Metabolic & Skin Disorder Support</li>
+            </ul>
+          </div>
+          <div class="pt-6 mt-6 border-t border-ayur-200/60">
+            <a href="#booking" class="inline-flex items-center text-sm font-bold text-ayur-700 hover:text-ayur-900">
+              Manage Chronic Issues <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Lifestyle & Wellness Advice -->
+        <div class="group bg-ayur-sand rounded-3xl p-8 border border-ayur-200/80 hover:border-ayur-500 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-ayur-700 text-white flex items-center justify-center mb-6 shadow-md group-hover:scale-105 transition-transform">
+              <i class="fa-solid fa-person-walking text-2xl"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ayur-900 mb-3">Lifestyle & Wellness Advice</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Personalized guidance on daily routines (Dinacharya), therapeutic movement, sleep hygiene, and stress mitigation for sustained energy.
+            </p>
+            <ul class="space-y-2 text-xs text-slate-700 font-medium">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Customized Diet Plans (Pathya Aahar)</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Stress Reduction & Sleep Hygiene</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-ayur-600"></i> Daily Ayurvedic Self-Care Routines</li>
+            </ul>
+          </div>
+          <div class="pt-6 mt-6 border-t border-ayur-200/60">
+            <a href="#booking" class="inline-flex items-center text-sm font-bold text-ayur-700 hover:text-ayur-900">
+              Get Lifestyle Guidance <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick Guidance Banner -->
+      <div class="mt-16 p-8 rounded-3xl bg-gradient-to-r from-ayur-800 to-ayur-700 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+        <div class="space-y-1 text-center md:text-left">
+          <h4 class="font-serif text-2xl font-bold">Unsure which consultation suits your symptoms?</h4>
+          <p class="text-ayur-200 text-sm">Send a direct message on WhatsApp for guidance and appointment availability.</p>
+        </div>
+        <a href="https://wa.me/918090799630?text=Hello%20Dr.%20Divyanshi,%20I%20need%20guidance%20on%20choosing%20the%20right%20consultation." target="_blank" class="shrink-0 px-6 py-3.5 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm flex items-center gap-2 shadow-md transition-all">
+          <i class="fa-brands fa-whatsapp text-lg"></i> Chat on WhatsApp: 8090799630
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Natural Approach Section -->
+  <section id="approach" class="py-20 bg-ayur-sand">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 space-y-6">
+          <span class="inline-flex items-center px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-ayur-200 text-ayur-800">
+            Ayurvedic Philosophy
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-ayur-900">
+            Natural Approach: Safe, Effective & Holistic Care
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+            Rather than relying solely on quick symptomatic relief, classical Ayurveda works by rebalancing your internal physiological ecosystem.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-ayur-100 shadow-sm">
+              <div class="w-10 h-10 rounded-full bg-ayur-100 text-ayur-700 flex items-center justify-center shrink-0 mt-0.5">
+                <i class="fa-solid fa-seedling"></i>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-ayur-900">Authentic Botanical Formulations</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">Using classical, standardized Ayurvedic remedies with no harsh chemical additives.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-ayur-100 shadow-sm">
+              <div class="w-10 h-10 rounded-full bg-ayur-100 text-ayur-700 flex items-center justify-center shrink-0 mt-0.5">
+                <i class="fa-solid fa-bowl-rice"></i>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-ayur-900">Food as Medicine (Ahara)</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">Strengthening the gut and metabolism (Agni) through targeted, easy-to-digest nutrition.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-ayur-100 shadow-sm">
+              <div class="w-10 h-10 rounded-full bg-ayur-100 text-ayur-700 flex items-center justify-center shrink-0 mt-0.5">
+                <i class="fa-solid fa-peace"></i>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-ayur-900">Mind-Body Harmony</h4>
+                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">Addressing physical and stress-related elements together for lasting wellness.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="bg-white rounded-3xl p-8 border border-ayur-200 shadow-lg space-y-6">
+            <h3 class="font-serif text-2xl font-bold text-ayur-900">Your Treatment Journey</h3>
+            
+            <div class="space-y-6 relative before:absolute before:inset-0 before:left-5 before:w-0.5 before:bg-ayur-200">
+              
+              <div class="relative flex items-start gap-6">
+                <div class="w-10 h-10 rounded-full bg-ayur-700 text-white flex items-center justify-center font-bold text-sm shrink-0 z-10 shadow">
+                  1
+                </div>
+                <div>
+                  <h4 class="text-base font-bold text-ayur-900">Comprehensive Assessment</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-1">Detailed discussion of your symptoms, medical history, digestion, sleep, and lifestyle.</p>
+                </div>
+              </div>
+
+              <div class="relative flex items-start gap-6">
+                <div class="w-10 h-10 rounded-full bg-ayur-700 text-white flex items-center justify-center font-bold text-sm shrink-0 z-10 shadow">
+                  2
+                </div>
+                <div>
+                  <h4 class="text-base font-bold text-ayur-900">Customized Prescription</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-1">Receive an individualized regimen outlining authentic herbal remedies, diet guidelines, and dos & don'ts.</p>
+                </div>
+              </div>
+
+              <div class="relative flex items-start gap-6">
+                <div class="w-10 h-10 rounded-full bg-ayur-700 text-white flex items-center justify-center font-bold text-sm shrink-0 z-10 shadow">
+                  3
+                </div>
+                <div>
+                  <h4 class="text-base font-bold text-ayur-900">Follow-up & Progression</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-1">Regular WhatsApp reviews to evaluate progress and refine recommendations for sustainable health.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="p-4 rounded-xl bg-ayur-50 text-center border border-ayur-100">
+              <p class="text-xs text-slate-600 font-medium">Ready to start your natural healing journey?</p>
+              <a href="#booking" class="text-sm font-bold text-ayur-800 hover:text-ayur-600 underline mt-1 inline-block">Book your appointment today</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Online Consultation Section -->
+  <section id="consultation" class="py-20 bg-white border-y border-ayur-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-gradient-to-br from-ayur-900 via-ayur-800 to-ayur-700 rounded-3xl text-white p-8 sm:p-12 lg:p-16 shadow-2xl relative overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
+          
+          <div class="lg:col-span-8 space-y-6">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-white/10 text-ayur-200 border border-white/20">
+              <i class="fa-solid fa-wifi"></i> Digital Telehealth
+            </span>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+              Online Consultation: <br class="hidden sm:inline">
+              <span class="text-ayur-gold italic">Consult from the comfort of your home.</span>
+            </h2>
+            <p class="text-ayur-100 text-base sm:text-lg max-w-2xl leading-relaxed">
+              Connect directly with Dr. Divyanshi Gupta over dedicated video or phone consultations from anywhere across India.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-xs">
+                  <i class="fa-solid fa-video"></i>
+                </div>
+                <span class="text-sm font-medium text-ayur-100">1-on-1 Video / Audio Consultation</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-xs">
+                  <i class="fa-solid fa-file-prescription"></i>
+                </div>
+                <span class="text-sm font-medium text-ayur-100">Digital Prescription Delivery</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-xs">
+                  <i class="fa-solid fa-utensils"></i>
+                </div>
+                <span class="text-sm font-medium text-ayur-100">Dietary & Herbal Protocol</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-xs">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <span class="text-sm font-medium text-ayur-100">Post-Consultation WhatsApp Chat</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-4 text-center space-y-4">
+            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 text-center space-y-3">
+              <p class="text-xs uppercase font-semibold tracking-wider text-ayur-200">Appointments & Inquiries</p>
+              <p class="text-2xl font-bold font-serif text-white">Call or WhatsApp</p>
+              <a href="tel:8090799630" class="text-2xl font-bold text-emerald-400 block hover:underline">
+                +91 8090799630
+              </a>
+              <div class="pt-2">
+                <a href="#booking" class="w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-ayur-gold hover:bg-amber-600 text-slate-900 font-bold text-sm transition-colors shadow">
+                  Reserve Online Slot
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Appointment Booking Form -->
+  <section id="booking" class="py-20 bg-ayur-sand">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center space-y-3 mb-12">
+        <span class="inline-flex items-center px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-ayur-200 text-ayur-800">
+          Appointments & Queries
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ayur-900">
+          Book Your Consultation with Dr. Divyanshi Gupta
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          Fill out the details below to request a time slot or connect directly via WhatsApp.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-3xl shadow-xl border border-ayur-200 p-6 sm:p-10">
+        <form id="appointment-form" class="space-y-6" onsubmit="handleFormSubmit(event)">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="name" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                Full Name <span class="text-red-500">*</span>
+              </label>
+              <input type="text" id="name" required placeholder="Your full name" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-ayur-500 text-sm">
+            </div>
+
+            <div>
+              <label for="phone" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                WhatsApp / Phone Number <span class="text-red-500">*</span>
+              </label>
+              <input type="tel" id="phone" required placeholder="e.g. 8090799630" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-ayur-500 text-sm">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="service" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                Required Service <span class="text-red-500">*</span>
+              </label>
+              <select id="service" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-ayur-500 text-sm bg-white">
+                <option value="General Consultation">General Consultation</option>
+                <option value="Preventive Care">Preventive Care</option>
+                <option value="Health Check-ups">Health Check-ups</option>
+                <option value="Gynecological Disorders (PCOD/PCOS)">Gynecological Disorders (PCOD/PCOS)</option>
+                <option value="Chronic Disease Management">Chronic Disease Management</option>
+                <option value="Lifestyle & Wellness Advice">Lifestyle & Wellness Advice</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="type" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                Consultation Mode <span class="text-red-500">*</span>
+              </label>
+              <select id="type" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-ayur-500 text-sm bg-white">
+                <option value="Online Video / Voice Consultation">Online Video / Voice Consultation (From Home)</option>
+                <option value="Clinic Visit">Clinic Visit</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="date" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                Preferred Date
+              </label>
+              <input type="date" id="date" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-ayur-500 text-sm">
+            </div>
+
+            <div>
+              <label for="time" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                Preferred Time Slot
+              </label>
+              <select id="time" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-ayur-500 text-sm bg-white">
+                <option value="Morning (10:00 AM - 1:00 PM)">Morning (10:00 AM - 1:00 PM)</option>
+                <option value="Afternoon (2:00 PM - 5:00 PM)">Afternoon (2:00 PM - 5:00 PM)</option>
+                <option value="Evening (5:00 PM - 8:00 PM)">Evening (5:00 PM - 8:00 PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="notes" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+              Brief Description of Symptoms or Queries
+            </label>
+            <textarea id="notes" rows="3" placeholder="Briefly describe your health concern, symptoms, or duration..." class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-ayur-500 text-sm"></textarea>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 pt-2">
+            <button type="submit" class="w-full sm:flex-1 py-4 px-6 rounded-xl bg-ayur-700 hover:bg-ayur-800 text-white font-bold text-sm shadow transition-all flex items-center justify-center gap-2">
+              <i class="fa-regular fa-calendar-check"></i> Submit Booking Request
+            </button>
+            <button type="button" onclick="sendViaWhatsApp()" class="w-full sm:flex-1 py-4 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow transition-all flex items-center justify-center gap-2">
+              <i class="fa-brands fa-whatsapp text-lg"></i> Book via WhatsApp
+            </button>
+          </div>
+
+          <p class="text-xs text-center text-slate-500">
+            <i class="fa-solid fa-lock mr-1"></i> Patient confidentiality is strictly maintained.
+          </p>
+        </form>
+
+        <!-- Success Box -->
+        <div id="booking-success" class="hidden mt-6 p-6 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 text-center space-y-3">
+          <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center mx-auto text-xl">
+            <i class="fa-solid fa-check"></i>
+          </div>
+          <h4 class="font-serif text-xl font-bold">Booking Request Prepared!</h4>
+          <p class="text-sm text-emerald-800">
+            Your details have been recorded. You can now send them directly to Dr. Divyanshi Gupta's WhatsApp desk to confirm your slot.
+          </p>
+          <div class="pt-2">
+            <a id="whatsapp-redirect-btn" href="#" target="_blank" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-emerald-600 text-white text-xs font-bold uppercase tracking-wider hover:bg-emerald-700">
+              <i class="fa-brands fa-whatsapp text-base"></i> Open WhatsApp Message
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-20 bg-white border-t border-ayur-100">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center space-y-3 mb-14">
+        <span class="inline-flex items-center px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-ayur-100 text-ayur-800">
+          Patient Queries
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ayur-900">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          Key information about consultations, treatments, and appointments.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        
+        <div class="border border-ayur-200 rounded-2xl overflow-hidden bg-ayur-sand/40">
+          <button onclick="toggleFaq(1)" class="w-full px-6 py-5 text-left font-serif text-lg font-bold text-ayur-900 flex justify-between items-center">
+            <span>How does the online consultation work?</span>
+            <i id="faq-icon-1" class="fa-solid fa-chevron-down text-sm text-ayur-600 transition-transform"></i>
+          </button>
+          <div id="faq-answer-1" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-ayur-100 pt-3">
+            After scheduling your slot, you will receive a secure video/WhatsApp call link. During the session, Dr. Divyanshi Gupta will conduct an in-depth inquiry into your health concern. You will subsequently receive a digital prescription with dosage instructions and dietary guidelines sent directly to your phone.
+          </div>
+        </div>
+
+        <div class="border border-ayur-200 rounded-2xl overflow-hidden bg-ayur-sand/40">
+          <button onclick="toggleFaq(2)" class="w-full px-6 py-5 text-left font-serif text-lg font-bold text-ayur-900 flex justify-between items-center">
+            <span>Can Ayurveda help with PCOD/PCOS and menstrual irregularities?</span>
+            <i id="faq-icon-2" class="fa-solid fa-chevron-down text-sm text-ayur-600 transition-transform"></i>
+          </button>
+          <div id="faq-answer-2" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-ayur-100 pt-3">
+            Yes. Ayurvedic protocols specialize in regulating ovulation, clearing metabolic toxins from reproductive channels, balancing insulin resistance, and restoring regular cycles through herbal therapies and nutrition.
+          </div>
+        </div>
+
+        <div class="border border-ayur-200 rounded-2xl overflow-hidden bg-ayur-sand/40">
+          <button onclick="toggleFaq(3)" class="w-full px-6 py-5 text-left font-serif text-lg font-bold text-ayur-900 flex justify-between items-center">
+            <span>Are Ayurvedic medications safe with ongoing allopathic treatments?</span>
+            <i id="faq-icon-3" class="fa-solid fa-chevron-down text-sm text-ayur-600 transition-transform"></i>
+          </button>
+          <div id="faq-answer-3" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-ayur-100 pt-3">
+            Dr. Divyanshi reviews existing medications during consultation. Classical herbal formulations can safely coexist with adequate timing gaps. Please share your current prescriptions during your session.
+          </div>
+        </div>
+
+        <div class="border border-ayur-200 rounded-2xl overflow-hidden bg-ayur-sand/40">
+          <button onclick="toggleFaq(4)" class="w-full px-6 py-5 text-left font-serif text-lg font-bold text-ayur-900 flex justify-between items-center">
+            <span>How do I reach the doctor for urgent queries or bookings?</span>
+            <i id="faq-icon-4" class="fa-solid fa-chevron-down text-sm text-ayur-600 transition-transform"></i>
+          </button>
+          <div id="faq-answer-4" class="hidden px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-ayur-100 pt-3">
+            You can call or message on WhatsApp at <strong>+91 8090799630</strong> or submit the appointment booking form on this website.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-ayur-dark text-ayur-100 pt-16 pb-12 border-t border-ayur-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-ayur-800">
+        
+        <!-- Bio -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-ayur-600 text-white flex items-center justify-center">
+              <i class="fa-solid fa-seedling text-lg text-ayur-200"></i>
+            </div>
+            <div>
+              <span class="font-serif text-xl font-bold block text-white">Dr. Divyanshi Gupta</span>
+              <span class="text-xs uppercase font-semibold text-ayur-300">BAMS &bull; Ayurveda Consultant</span>
+            </div>
+          </div>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Restoring root-cause equilibrium through compassionate care, expert guidance, and classical Ayurvedic medicine.
+          </p>
+          <p class="font-serif italic text-ayur-gold text-base">
+            "Good health is the foundation of a better life."
+          </p>
+        </div>
+
+        <!-- Services -->
+        <div class="space-y-3">
+          <h4 class="font-serif text-base font-bold text-white uppercase tracking-wider text-xs">Our Services</h4>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li><a href="#services" class="hover:text-ayur-gold transition-colors">General Consultation</a></li>
+            <li><a href="#services" class="hover:text-ayur-gold transition-colors">Preventive Care</a></li>
+            <li><a href="#services" class="hover:text-ayur-gold transition-colors">Health Check-ups</a></li>
+            <li><a href="#services" class="hover:text-ayur-gold transition-colors">Gynecological Disorders</a></li>
+            <li><a href="#services" class="hover:text-ayur-gold transition-colors">Chronic Disease Management</a></li>
+            <li><a href="#services" class="hover:text-ayur-gold transition-colors">Lifestyle & Wellness Advice</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Details -->
+        <div class="space-y-3">
+          <h4 class="font-serif text-base font-bold text-white uppercase tracking-wider text-xs">Appointments & Queries</h4>
+          <div class="space-y-3 text-sm text-slate-300">
+            <div class="flex items-start gap-3">
+              <i class="fa-solid fa-phone text-ayur-gold mt-1"></i>
+              <div>
+                <span class="text-xs text-slate-400 block font-semibold">Direct Call:</span>
+                <a href="tel:8090799630" class="text-white hover:text-ayur-gold font-bold">+91 8090799630</a>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <i class="fa-brands fa-whatsapp text-emerald-400 mt-1"></i>
+              <div>
+                <span class="text-xs text-slate-400 block font-semibold">WhatsApp:</span>
+                <a href="https://wa.me/918090799630" target="_blank" class="text-white hover:text-emerald-400 font-bold">+91 8090799630</a>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <i class="fa-solid fa-laptop-medical text-ayur-gold mt-1"></i>
+              <div>
+                <span class="text-xs text-slate-400 block font-semibold">Consultation Mode:</span>
+                <span class="text-white">Online Teleconsultation & In-Clinic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Commitment & Motto -->
+        <div class="space-y-4">
+          <h4 class="font-serif text-base font-bold text-white uppercase tracking-wider text-xs">Our Commitment</h4>
+          <div class="p-4 rounded-2xl bg-ayur-900 border border-ayur-800 space-y-2">
+            <div class="flex items-center gap-2 text-ayur-gold text-sm font-semibold">
+              <i class="fa-solid fa-heart-pulse"></i> Your Health, Our Priority
+            </div>
+            <p class="text-xs text-slate-300">
+              Safe, effective & holistic Ayurvedic care tailored to your body's natural constitution.
+            </p>
+          </div>
+          <div class="text-center p-3 rounded-xl bg-ayur-800 text-ayur-100 text-xs font-bold uppercase tracking-wider">
+            Stay Healthy. Stay Happy.
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+        <p>&copy; 2026 Dr. Divyanshi Gupta, BAMS. All rights reserved.</p>
+        <p class="text-center sm:text-right">
+          Disclaimer: Ayurvedic guidance is tailored individually. Contact the doctor for formal clinical diagnostic plans.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Action Buttons -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+    <a href="https://wa.me/918090799630?text=Hello%20Dr.%20Divyanshi,%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" class="w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-2xl flex items-center justify-center text-2xl hover:scale-110 transition-transform" title="WhatsApp Support">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="tel:8090799630" class="w-14 h-14 bg-ayur-700 hover:bg-ayur-800 text-white rounded-full shadow-2xl flex items-center justify-center text-xl hover:scale-110 transition-transform" title="Call Doctor">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile navigation toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // FAQ Accordion
+    function toggleFaq(index) {
+      const answer = document.getElementById(`faq-answer-${index}`);
+      const icon = document.getElementById(`faq-icon-${index}`);
+      if (answer.classList.contains('hidden')) {
+        answer.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        answer.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+
+    // Appointment Form
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const service = document.getElementById('service').value;
+      const type = document.getElementById('type').value;
+      const date = document.getElementById('date').value || 'Earliest slot';
+      const time = document.getElementById('time').value;
+      const notes = document.getElementById('notes').value || 'None';
+
+      const successBox = document.getElementById('booking-success');
+      const whatsappRedirectBtn = document.getElementById('whatsapp-redirect-btn');
+
+      const whatsappText = encodeURIComponent(
+        `*New Consultation Booking Request*\\n\\n` +
+        `*Name:* ${name}\\n` +
+        `*Phone:* ${phone}\\n` +
+        `*Service:* ${service}\\n` +
+        `*Mode:* ${type}\\n` +
+        `*Preferred Date:* ${date}\\n` +
+        `*Preferred Time:* ${time}\\n` +
+        `*Notes:* ${notes}`
+      );
+
+      whatsappRedirectBtn.href = `https://wa.me/918090799630?text=${whatsappText}`;
+      successBox.classList.remove('hidden');
+      successBox.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Direct WhatsApp send
+    function sendViaWhatsApp() {
+      const name = document.getElementById('name').value || 'Patient';
+      const service = document.getElementById('service').value;
+      const type = document.getElementById('type').value;
+      const notes = document.getElementById('notes').value;
+
+      let msg = `Hello Dr. Divyanshi Gupta, I would like to book an appointment for ${service} (${type}).`;
+      if (name && name !== 'Patient') {
+        msg += ` My name is ${name}.`;
+      }
+      if (notes) {
+        msg += ` Symptoms/Query: ${notes}`;
+      }
+
+      window.open(`https://wa.me/918090799630?text=${encodeURIComponent(msg)}`, '_blank');
+    }
+  </script>
+</body>
+</html>
